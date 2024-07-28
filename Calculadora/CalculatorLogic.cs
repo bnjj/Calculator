@@ -1,8 +1,8 @@
 ﻿namespace Calculadora
 {
-    public class CalculatorLogic
+    public class CalculatorLogic : ICalculatorLogic
     {
-        public static double Calcute(string num1,string num2,string operation)
+        public double Calcute(string num1,string num2,string operation)
         {
             double result = 0;
             double number1 = double.Parse(num1);

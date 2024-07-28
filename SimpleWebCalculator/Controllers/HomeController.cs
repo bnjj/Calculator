@@ -17,7 +17,8 @@ namespace SimpleCalculatorWeb.Controllers
 
             try
             {
-                double result = CalculatorLogic.Calcute(number1, number2, operation);
+                CalculatorLogic calculator = new CalculatorLogic();
+                double result = calculator.Calcute(number1, number2, operation);
                 ViewData["Result"] = result.ToString();
                 ViewData["Number1"] = number1;
                 ViewData["Number2"] = number2;
