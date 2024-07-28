@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    public class Class1
+    public class CalculatorLogic
     {
 
     }

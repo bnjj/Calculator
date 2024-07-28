@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{668E5A4A-F185-4A74-A5C7-195062404798}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBusiness", "Calculadora\CalculatorBusiness.csproj", "{668E5A4A-F185-4A74-A5C7-195062404798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
